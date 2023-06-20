@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Estudo de Programacao</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div>
+
+        <img src="Paisagem.png" alt="Foto do interior">
+
+
+        <h1> O que você encontra por aqui</h1>
+        <p> No interior onde se poem o mais lindo por do sol, a cidade de Sumé localizada no Cariri Paraibano esbanja
+            tamanha
+            beleza com a ilustre pintura no céu e mais embaixo o espelho dágua refletindo as nuvens e as canos cheia de
+            água
+            ah espera do pescador, mais uma vez descansa vendo toda a obra do criador.
+        </p>
+
+
+
+        <button onclick="abrir()" . class="Entrar"> Entrar em Contato </button>
+
+    </div>
+
+
+
+    <form de ação="https://formsubmit.co/limamarcio2222@email.com" method="POST">
+        <input type="text" name="name" obrigatório placeholder="Nome">
+        <input type="email" name="email" obrigatório placeholder="E-mail">
+        <textarea type="text" name="duvida" placeholder=" Sua dúvida aqui "></textarea>
+        <button type="submit">Enviar</button>
+        <button onclick="fechar()" type="button" class="Voltar">Voltar</button>
+        </formulário>
+
+</body>
+
+<script>
+
+    function abrir() {
+        document.querySelector("form").style.opacity = 1
+        document.querySelector("div").style.opacity = 0.3
+
+    }
+
+    function fechar() {
+        document.querySelector("form").style.opacity = 0
+        document.querySelector("div").style.opacity = 1
+    }
+
+</script>
+
+</html>
